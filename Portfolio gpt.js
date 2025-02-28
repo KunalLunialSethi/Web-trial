@@ -1,19 +1,13 @@
 document.addEventListener("DOMContentLoaded", function () {
   const sections = document.querySelectorAll("section");
-  const options = {
-    threshold: 0.1
-  };
-
-  const observer = new IntersectionObserver((entries, observer) => {
-    entries.forEach(entry => {
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
       if (entry.isIntersecting) {
         entry.target.classList.add("visible");
-        observer.unobserve(entry.target);
       }
     });
-  }, options);
-
-  sections.forEach(section => {
+  }, { threshold: 0.1 });
+  sections.forEach((section) => {
     observer.observe(section);
   });
 });
