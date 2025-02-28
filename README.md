@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KUNAL LUNIAL SETHI | Portfolio</title>
+  <link rel="stylesheet" href="Portfolio gpt.css">
+</head>
+<body>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <header>
+    <h1>KUNAL LUNIAL SETHI</h1>
+    <p>Digital Artist | Filmmaker | Video Editor | 3D Generalist</p>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I am a passionate learner who loves creating digital content, blending creativity with technical expertise.</p>
+    <p>My work spans video editing, 3D animation, motion graphics, and filmmaking, always pushing artistic boundaries.</p>
+  </section>
+
+  <section id="portfolio">
+    <h2>Portfolio</h2>
+    <div class="portfolio-section">
+      <h3>Video Editing</h3>
+      <ul>
+        <li><a href="https://drive.google.com/drive/folders/1Ofk33bDVm2xF5LbvufaC51EOk4WvgueT?usp=sharing" target="_blank">Motion Graphics</a></li>
+        <li><a href="https://www.instagram.com/dee_art_palette/" target="_blank">Reels</a></li>
+        <li><a href="https://drive.google.com/drive/folders/1Tmb5g1VUl99YuXkUh_7m3EmLxPxxATzs?usp=sharing" target="_blank">Group Projects</a></li>
+      </ul>
+    </div>
+    <div class="portfolio-section">
+      <h3>3D</h3>
+      <ul>
+        <li><a href="https://drive.google.com/drive/folders/1xOZhBz5XNYVDiqUt_eyCZY2u0_8bwwTo?usp=drive_link" target="_blank">3D Modelling & Texturing</a></li>
+      </ul>
+    </div>
+    <div class="portfolio-section">
+      <h3>2D</h3>
+      <ul>
+        <li><a href="https://drive.google.com/drive/folders/13EMKu3Iip1Cny4zfM85PjRc9Mi_xof-E?usp=sharing" target="_blank">GFX Icons</a></li>
+        <li><a href="https://drive.google.com/drive/folders/1IcgMvkHPxyXCuZdC25q-VSKLI0ToOxSo?usp=sharing" target="_blank">Vector Design</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:sethilunialkunal66@gmail.com">sethilunialkunal66@gmail.com</a></p>
+    <p>Phone: +91 9717895116</p>
+  </section>
+
+  <script src="Portfolio gpt.js"></script>
+</body>
+</html>
