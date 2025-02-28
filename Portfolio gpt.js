@@ -7,7 +7,9 @@ document.addEventListener("DOMContentLoaded", function () {
       }
     });
   }, { threshold: 0.1 });
+
   sections.forEach((section) => {
     observer.observe(section);
   });
 });
+a
